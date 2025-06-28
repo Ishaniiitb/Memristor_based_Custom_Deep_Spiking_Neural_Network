@@ -1,9 +1,9 @@
 # Memristor-based Custom Deep Spiking Neural Network
 
-## Description
+## 🧠 Description
 This project implements a custom deep Spiking Neural Network (SNN) that leverages memristor characteristics for energy-efficient neuromorphic computing. The network is designed to mimic biological neural systems using a Leaky Integrate-and-Fire (LIF) neuron model and Spike-Timing-Dependent Plasticity (STDP) for learning. Memristors are used to simulate synaptic weights, enabling low-power and scalable hardware implementations. The project includes scripts to train and test the SNN on the MNIST dataset for handwritten digit recognition, along with utilities for data handling and visualization.
 
-## Features
+## 🚀 Features
 - **Memristor-based Synapses**: Simulates synaptic weights using a memristor model for energy-efficient computing.
 - **LIF Neuron Model**: Implements Leaky Integrate-and-Fire neurons for spiking behavior.
 - **STDP Learning**: Uses Spike-Timing-Dependent Plasticity for unsupervised learning.
@@ -11,7 +11,7 @@ This project implements a custom deep Spiking Neural Network (SNN) that leverage
 - **Visualization**: Includes tools to visualize network activity and performance metrics.
 - **Modular Design**: Separates memristor, neuron, network, data handling, and visualization logic into distinct modules.
 
-## Installation
+## ⚙️ Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ishaniiitb/Memristor_based_Custom_Deep_Spiking_Neural_Network.git
@@ -28,7 +28,7 @@ This project implements a custom deep Spiking Neural Network (SNN) that leverage
 
 4. Ensure Python 3.8 or higher is installed.
 
-## Usage
+## 📊 Usage
 1. **Prepare Data**:
    - Run `data.py` to download and preprocess the MNIST dataset:
      ```bash
@@ -54,7 +54,7 @@ This project implements a custom deep Spiking Neural Network (SNN) that leverage
      python visualize.py
      ```
 
-## File Structure
+## 📂 File Structure
 - `Memristor.py`: Defines the memristor model for synaptic weights.
 - `SNN.py`: Implements the LIF neuron model and SNN architecture with STDP learning.
 - `train.py`: Script for training the SNN on the MNIST dataset.
@@ -63,7 +63,7 @@ This project implements a custom deep Spiking Neural Network (SNN) that leverage
 - `visualize.py`: Generates visualizations of network activity and performance.
 - `requirements.txt`: Lists required Python packages.
 
-## Technologies Used
+## 🛠 Technologies Used
 - **Python**: Core programming language.
 - **PyTorch**: Used for tensor operations and MNIST dataset handling.
 - **NumPy**: For numerical computations.
@@ -71,13 +71,10 @@ This project implements a custom deep Spiking Neural Network (SNN) that leverage
 - **Memristor Model**: Simulates synaptic weights inspired by memristor characteristics.
 - **LIF Neurons and STDP**: Implements biologically inspired spiking neurons and learning rules.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code follows the existing style, includes comments, and is tested for compatibility with the MNIST dataset.
+## 👥 Contributors
+Ishan Jha and Aryan Mishra
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
+## 📚 References
 - Inspired by research on memristor-based neuromorphic computing and spiking neural networks.[](https://www.sciencedirect.com/science/article/pii/S270947232400011X)[](https://ieeexplore.ieee.org/document/9806206/)[](https://www.researchgate.net/publication/384476302_Development_in_memristor-based_spiking_neural_network)
 - Utilizes the MNIST dataset for benchmarking.
 - Built with open-source libraries like PyTorch, NumPy, and Matplotlib.
